@@ -1,5 +1,5 @@
 # Trajectory-extraction
-结合PDR算法和蓝牙 iBeancon设备实现安卓端轨迹提取APP, 注意：iBeancon设备参考点需要修改代码设定。
+结合PDR算法和蓝牙 iBeancon设备实现安卓端轨迹提取APP, 仅供参考，请勿商用！！
 
 Latest version：V2.4
 
@@ -15,6 +15,11 @@ JDK 11
 Gradle 7.0.1
 
 最低支持安卓版本: Android 10 SDK API level 29
+
+注意：iBeancon设备参考点需要根据实际场景自行修改代码设定，具体代码逻辑为位于 MainActivity类中的positionHandler线程部分，软件成品中为设置自定义功能，请自行修改代码：
+
+![代码](https://raw.githubusercontent.com/whykang/Trajectory-extraction/main/Image/QQ%E5%9B%BE%E7%89%8720231010210639.gif?token=GHSAT0AAAAAACH4FDXVDGN5YXPBOCDXPE3CZJFJ2WA)
+
 
 # References and acknowledgments：
 

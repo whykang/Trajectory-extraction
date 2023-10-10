@@ -2,8 +2,10 @@
 
 结合PDR算法和蓝牙 iBeancon设备实现安卓端轨迹提取APP,遵循Apache License， 仅供参考，请勿商用！！
 
-
-Latest version：V2.4  Time：2023.10.10   Location：山东师范大学 304 实验室
+$\color{red}{Latest version：V2.4 }$  
+$\color{red}{Author: WangHongyue}$  
+$\color{red}{Time：2023.10.10}$  
+$\color{red}{Location：山东师范大学 304 实验室}$
 
 
 编译工具版本：android studio  Giraffe | 2022.3.1

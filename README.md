@@ -18,7 +18,7 @@ Gradle 7.0.1
 
 注意：iBeancon设备参考点需要根据实际场景自行修改代码设定，具体代码逻辑为位于 MainActivity类中的positionHandler线程部分，软件成品中为设置自定义功能，请自行修改代码：
 
-![代码](https://raw.githubusercontent.com/whykang/Trajectory-extraction/main/Image/QQ%E5%9B%BE%E7%89%8720231010210639.gif?token=GHSAT0AAAAAACH4FDXVDGN5YXPBOCDXPE3CZJFJ2WA)
+![代码](https://github.com/whykang/Trajectory-extraction/blob/main/Image/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-10%20213254.png?raw=true)
 
 
 # References and acknowledgments：

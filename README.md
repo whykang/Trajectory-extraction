@@ -37,7 +37,7 @@ https://github.com/mherb/kalman
 
 实际效果（以文淙楼1楼为背景）：
 
-![实际运行](https://raw.githubusercontent.com/whykang/Trajectory-extraction/main/Image/QQ%E5%9B%BE%E7%89%8720231010210639.gif?token=GHSAT0AAAAAACH4FDXVDGN5YXPBOCDXPE3CZJFJ2WA)
+![实际运行](https://github.com/whykang/Trajectory-extraction/blob/main/Image/QQ%E5%9B%BE%E7%89%8720231010210639.gif?raw=true)
 
 
 

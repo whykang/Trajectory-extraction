@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">轨迹提取</string>
+    <string name="dummy_button">Clear</string>
+    <string name="title_activity_about">AboutActivity</string>
+</resources>

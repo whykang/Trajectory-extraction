@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#F10A0A"
+            android:textStyle="bold|italic"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:text="About"
+            />
+
+        <View
+            android:layout_height="2px"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="#151415"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColor="#0C0C0C"
+            android:textStyle="bold|italic"
+            android:layout_gravity="center_horizontal"
+            android:text="Author：WangHongyue"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColor="#0C0C0C"
+            android:textStyle="bold|italic"
+            android:layout_gravity="center_horizontal"
+            android:text="Time：2023-09-19"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColor="#0C0C0C"
+            android:textStyle="bold|italic"
+            android:layout_gravity="center_horizontal"
+            android:text="Version：V 2.2"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#0C0C0C"
+            android:textStyle="bold|italic"
+            android:text="Location：SDNU 304 Lab"
+            />
+
+        <View
+            android:layout_height="2px"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:background="#151415"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColor="#EC0F0F"
+            android:textStyle="bold|italic"
+            android:layout_marginLeft="10dp"
+            android:text="Describe："
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#131313"
+            android:textStyle="bold|italic"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="基于手机加速度、磁力和方向传感器的行人路径记录提取工具，由于步长估算采用对三轴加速度二次积分所得，为了解决累计误差逐渐变大问题，采用蓝牙iBeacon设备进行动态修正"
+            android:autoLink="web"
+            />
+
+
+
+        <View
+            android:layout_height="2px"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:background="#151415"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#EC0F0F"
+            android:textStyle="bold|italic"
+            android:layout_marginLeft="10dp"
+            android:text="References and Acknowledgments:"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pdr"
+            android:layout_marginTop="10dp"
+            android:textColor="#131313"
+            android:textStyle="bold|italic"
+            android:layout_marginLeft="10dp"
+            android:text="1、Pedestrian Dead Reckoning: https://blog.csdn.net/wxc_1998/article/details/127265887"
+            android:autoLink="web"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#131313"
+            android:textStyle="bold|italic"
+            android:layout_marginLeft="10dp"
+            android:text="2、SensorMonitor: https://github.com/AlexZhuo/SensorMonitor"
+            android:autoLink="web"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#131313"
+            android:textStyle="bold|italic"
+            android:layout_marginLeft="10dp"
+            android:text="3、ThesisExperiment: https://github.com/anyangxaut/ThesisExperiment"
+            android:autoLink="web"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#131313"
+            android:textStyle="bold|italic"
+            android:layout_marginLeft="10dp"
+            android:text="4、Android-BluetoothKit: https://github.com/dingjikerbo/Android-BluetoothKit"
+            android:autoLink="web"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#131313"
+            android:textStyle="bold|italic"
+            android:layout_marginLeft="10dp"
+            android:text="5、yingtongwang: https://github.com/yingtongwang/sensor-fusion-demo"
+            android:autoLink="web"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#131313"
+            android:textStyle="bold|italic"
+            android:layout_marginLeft="10dp"
+            android:text="6、FastBle: https://github.com/Jasonchenlijian/FastBle/wiki"
+            android:autoLink="web"
+            />
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

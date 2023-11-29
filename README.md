@@ -5,7 +5,7 @@
 $\color{red}{Latest version：V2.4 }$  
 $\color{red}{Author: WangHongyue}$  
 $\color{red}{Time：2023.10.10}$  
-$\color{red}{Location：山东师范大学 304 实验室}$
+$\color{red}{Location：SDNU 304 实验室}$
 
 
 编译工具版本：android studio  Giraffe | 2022.3.1

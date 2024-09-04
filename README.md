@@ -3,9 +3,8 @@
 结合PDR算法和蓝牙 iBeancon设备实现安卓端轨迹提取APP， 遵循Apache License， 仅供参考，请勿商用！！
 
 $\color{red}{Latest version：V2.4 }$  
-$\color{red}{Author: WangHongyue}$  
+$\color{red}{Author: Wang}$  
 $\color{red}{Time：2023.10.10}$  
-$\color{red}{Location：SDNU 304 实验室}$
 
 
 编译工具版本：android studio  Giraffe | 2022.3.1
@@ -37,7 +36,7 @@ Kalman：
 
 https://github.com/mherb/kalman
 
-实际效果（以文淙楼1楼为背景）：
+实际效果：
 
 ![实际运行](https://github.com/whykang/Trajectory-extraction/blob/main1/Image/QQ%E5%9B%BE%E7%89%8720231010210639.gif?raw=true)
 

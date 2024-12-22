@@ -1,6 +1,6 @@
 # Trajectory-extraction
 
-结合PDR算法和蓝牙 iBeancon设备实现安卓端轨迹提取APP， 遵循Apache License， 仅供参考，请勿商用！！
+结合PDR算法和蓝牙 iBeancon设备实现安卓端轨迹提取APP！！
 
 $\color{red}{Latest version：V2.4 }$  
 $\color{red}{Author: Wang}$  
